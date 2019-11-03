@@ -198,30 +198,8 @@ class NewsDataClassifier:
 class NewsScrapper:
     def __init__(self):
         self.news_source_list = [
-                "https://news.google.com/rss/search?q=software%20vulnerability%20which%20users%20installed%20already",
-                "https://news.google.com/rss/search?q=windows%20or%20mac%20vulnerability",
-                "https://news.google.com/rss/search?q=dataloss",
-                "https://news.google.com/rss/search?q=hacking",
-                "https://news.google.com/rss/search?q=csirt%20information",
-                "https://news.google.com/rss/search?q=user%20information%20>%20system%20vuln",
-                "https://news.google.com/rss/search?q=user%20application%20>%20vuln%20news%20>%20recommend%20update",
-                "https://news.google.com/rss/search?q=vpn%20usage",
-                "https://news.google.com/rss/search?q=vpn%20frequency",
-                "https://news.google.com/rss/search?q=vpn%20home",
-                "https://news.google.com/rss/search?q=PC%20computer%20security%20app",
-                "https://news.google.com/rss/search?q=PC%20encryption",
-                "https://news.google.com/rss/search?q=PC%20hardening",
-                "https://news.google.com/rss/search?q=application%20blacklist",
-                "https://news.google.com/rss/search?q=Windows%20Admin%20right%20risk",
-                "https://news.google.com/rss/search?q=USB%20usage",
-                "https://news.google.com/rss/search?q=computer%20user%20right",
-                "https://news.google.com/rss/search?q=server%20access20access",
-                "https://news.google.com/rss/search?q=computer%20security%20incident",
-                "https://news.google.com/rss/search?q=computer%20system%20failure",
-                "https://news.google.com/rss/search?q=computer%20system%20trouble",
-                "https://news.google.com/rss/search?q=computer%20caution",
-                "https://news.google.com/rss/search?q=computer%20crack",
-                "https://news.google.com/rss/search?q=infomration%20leakage"
+                "https://news.google.com/rss/search?q=ironman&hl=en-US&gl=US&ceid=US:en",
+                "https://news.google.com/rss/search?q=ant-man+and+the+wasp&hl=en-US&gl=US&ceid=US:en"
             ]
         self.NONE_STR = "None"
         self.timezone = pytz.timezone("Asia/Tokyo")

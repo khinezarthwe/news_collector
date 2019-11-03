@@ -102,3 +102,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#pycharm idea file
+.idea/
+
+#ignore result file
+*.csv
+*.png
+*.html
+
+#ignore binary file
