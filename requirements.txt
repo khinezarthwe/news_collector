@@ -1,6 +1,6 @@
 pyLDAvis==2.1.2
 wordcloud==1.5.0
-requests==2.22.0
+requests==2.31.0
 bs4==0.0.1
 pandas==0.25.3
 sklearn==0.0
